@@ -36,8 +36,8 @@ class Customer(models.Model):
 CATEGORY_CHOICES =(
     ('M', 'Models'),
     ('L','Laptop'),
-    ('TW','Top Wear'),
-    ('BW', 'Bottom Wear'),
+    ('TW','TopWear'),
+    ('BW', 'BottomWear'),
 )    
 
 class Product(models.Model):
